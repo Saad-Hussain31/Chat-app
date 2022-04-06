@@ -124,7 +124,8 @@ public class Login extends JFrame {
 	private void login(String name, String address, int port) {
 		// TODO Auto-generated method stub
 		dispose();
-		System.out.println(name + ", " + address + ", " + port + " ");
+//		System.out.println(name + ", " + address + ", " + port + " ");
+		new Client(name, address,port);
 		
 	}
 }
